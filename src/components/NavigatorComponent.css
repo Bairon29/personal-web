@@ -1,0 +1,83 @@
+.App {
+   background-color: #222;
+  height: 550px;
+  width: 18%;
+  padding: 8px;
+  color: white;
+  display: inline-block;
+  position: absolute;
+  top: 1%;
+  left: -20%;
+  transition:  left 2s;
+
+}
+
+.Menu{
+  background-color: #222;
+  height: 550px;
+  width: 18%;
+  padding: 8px;
+  color: white;
+  display: inline-block;
+  position: absolute;
+  top: 1%;
+  left: .3%;
+  transition:  left 2s;
+  /*animation: Hide-Show_Menu 2s 1;*/
+}
+
+.menu-button{
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  left: .3%;
+  top: 1%;
+  transition:  left 2s;
+}
+.menu-button-active{
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  left: 20%;
+  top: 1%;
+  transition:  left 2s;
+}
+
+.App-header {
+text-align: center;
+margin-top: 10%;
+width: 100%;
+}
+.App-header span {
+display: block;
+margin-top: 10%;
+cursor: pointer;
+border:  1px solid white;
+width: 90%;
+height: 18px;
+padding: 5%;
+}
+
+.App-header span:hover{
+  background-color: lightgray;
+}
+
+.links{
+  text-align: center;
+  margin-top: 20%;
+}
+.links a{
+  color: lightskyblue;
+  text-decoration: none;
+  margin-left: 3%;
+}
+
+h4{
+  display: inline-block;
+}
+
+@keyframes Hide-Show_Menu {
+  0%{ left: 1%; }
+  100%{ left: -20%; }
+}
+

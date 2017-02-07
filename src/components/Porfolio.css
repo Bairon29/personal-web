@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Felipa');
+@import url('https://fonts.googleapis.com/css?family=Sahitya');
+.Porfolio-component{
+  width: 100%;
+  text-align: center;
+}
+
+.project-container{
+  display: inline-block;
+  width: 38%;
+  margin-right: 4%;
+  margin-left: 3%;
+  margin-top: 5%;
+  padding: 2%;
+  /*background-color: red;*/
+}
+
+.project-image{
+  width: 400px;
+  height: 300px;
+  border-radius: 10%;
+}
+
+.check-it{
+  text-decoration: none;
+  color: lightskyblue;
+  font-family: 'Felipa', cursive;
+  font-size: 180%;
+  padding: 2%;
+  border-radius: 5%;
+  transition: background-color 1s;
+}
+
+.check-it:hover{
+  background-color: rgba(0,0,0,.4);
+}
+
+.description{
+  background-color: rgba(0,0,0,.4);
+  padding: 2%;
+  color: white;
+  font-size: 110%;
+  font-family: 'Sahitya', serif;
+  transition: background-color 1s;
+}
+
+.description:hover{
+  background-color: rgba(0,0,0,.7);
+}
